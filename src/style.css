@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* MY OWN STYLES */
+
+#main {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #90AFC5;
+  max-width: 1920px;
+}
+#title {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  height: 60px;
+  /*font-weight: bold;*/
+  font-size: 50px;
+  font-weight: 600;
+  background: #336B87;
+}
+#img-div {
+  text-align: center;
+  background: /*#90AFB5;#505160;*/#4b96bb;
+}
+#img-caption {
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+}
+  /*  User Story #8  */
+#image {
+  max-width: 100%;
+  width: 450px;
+  height: auto;
+  /*  END User Story #8  */
+  /*  User Story #9  */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*  END User Story #9  */
+}
+#tribute-info {
+  background: #336B87;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tribute-link {
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+}
